@@ -1,0 +1,30 @@
+.places h2{
+    font-family: Poppins;
+    font-size:36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.placesPrice{
+height: 54px;
+background: #E5F8FF;
+border-radius: 0px 0px 5px 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:0px 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+}
+.leftContent{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+text-align: justify;
+margin-bottom:30px;
+}
