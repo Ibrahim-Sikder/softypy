@@ -5,8 +5,8 @@ import trending2 from "../../Assets/trendin2.png";
 import trending3 from "../../Assets/trendin3.png";
 const Trending = () => {
   return (
-    <div className="py-20 destination">
-      <div className="trendingHead pb-8">
+    <div className=" destination my-24">
+      <div className="trendingHead">
         <h2>Trending International Destinations</h2>
         <p>
           
