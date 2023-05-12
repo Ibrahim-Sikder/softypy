@@ -5,7 +5,7 @@ import place2 from '../../Assets/see.png';
 import place3 from '../../Assets/travel.png';
 const Places = () => {
     return (
-        <div className='places mt-64'>
+        <div className='places pt-64'>
            <h2>Best Places To Visit In Bangladesh</h2>
            <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div>

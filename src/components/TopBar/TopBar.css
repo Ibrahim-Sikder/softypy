@@ -50,3 +50,21 @@ text-align: center;
 color: #092E3D;
 
 }
+
+@media only screen and (max-width:992px){
+    .topBar{ 
+        width:100%;
+        text-align: center !important;
+    }
+    .topBarIcon{ 
+        left:200px;
+    
+    }
+    .contact{
+    left:400px;
+       
+       }
+       .phone{
+        left:215px;
+       }
+}

@@ -12,7 +12,7 @@ const Customer = () => {
         </p>
       </div>
       <div className="customer">
-        <p>Your thoughtfulness and support of Ghuronti is very much appreciated. <br />  You are a very dear friend to the Chamber, and I want to assure you that <br /> your confidence in Ghuronti will be justified.</p>
+        <p>Your thoughtfulness and support of Ghuronti is very much appreciated.  You are a very dear friend to the Chamber, and I want to assure you that your confidence in Ghuronti will be justified.</p>
         <img className="quoteImg" src={quote} alt="quote" />
       </div>
     </div>

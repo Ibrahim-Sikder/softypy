@@ -1,6 +1,6 @@
 .footer {
-  width: 1440px;
-  height: 295px;
+  width:1440px;
+  height: auto;
   background: #26ade2;
   margin: 0 auto;
 }
@@ -32,4 +32,10 @@
 .socialIcon{
 font-size:30px;
 margin-right:5px;
+}
+
+@media only screen and (max-width:1024px){
+  .footer {
+    width:100%;
+  }
 }

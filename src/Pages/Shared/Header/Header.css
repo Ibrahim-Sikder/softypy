@@ -37,19 +37,21 @@ color: #092E3D;
 .header input{
 box-sizing: border-box;
 position: absolute;
-width: 433px;
+width: 430px;
 height: 43px;
-left: 596px;
+left: -100px;
 top: 89px;
 background: #FFFFFF;
 border: 1px solid #4AB449;
 border-radius: 5px;
+padding-left:10px;
 }
 .searchIcon{
 position: absolute;
-right: 41%;
-top: 12.5%;
-bottom: 12.5%;
+right:-1030px;
+z-index: 99;
+top: 100px;
+bottom: 100px;
 color: rgba(9, 46, 61, 0.5);
 width:102px;
 height:30px;
@@ -76,3 +78,27 @@ color:#fff;
 text-align:center;
 justify-content: center;
 }
+
+/* @media only screen and (max-width:768px){
+    .header{
+        width: 100%;
+    }
+    .headerContent{
+        display: block !important;
+       width:100%;
+    }
+    .logo{
+        position: absolute;
+        width: 159px;
+        height: 56px;
+        left: 15px;
+        }
+        .header h5{
+            left: 190px;
+            }
+            .header input{
+                width: 100%;
+                left: 0px;
+                }
+    
+} */

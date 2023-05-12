@@ -1,5 +1,7 @@
 .banner {
   position: relative;
+  width:1440px;
+  margin: 0 auto;
 }
 .bannerImg {
   background-size: cover;
@@ -18,10 +20,10 @@
 }
 .banner h2 {
   position: absolute;
-  width: 949px;
+
   height: 22px;
   left: 232px;
-  top: 80px;
+  top: 50px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -39,7 +41,7 @@
   width: 1105px;
   height: 459px;
   left: 165px;
-  top: 247px;
+  top: 110px;
 
   background: linear-gradient(
     180deg,
@@ -221,4 +223,15 @@ color:#fff;
 background: #19ABE3;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width:768px){
+  .banner h2{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 }

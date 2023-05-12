@@ -4,8 +4,8 @@ import { FaPhoneAlt, FaMapMarkerAlt, FaFacebook,FaTwitter,FaBimobject,FaWhatsapp
 const Footer = () => {
     return (
         <div className='footer p-10'>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 place-items-center'>
-                <div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center'>
+                <div className='mb-10'>
                     <h4 className='pb-5'>BD Office Address </h4>
                     <p className='number'>
                        <span>
@@ -32,7 +32,7 @@ const Footer = () => {
                        </span>
                     </p>
                 </div>
-                <div>
+                <div className='mb-10'>
                     <h4 className='pb-5'>USA Office Address </h4>
                     <p className='number'>
                        <span>
@@ -59,7 +59,7 @@ const Footer = () => {
                        </span>
                     </p>
                 </div>
-                <div>
+                <div className='mb-10'>
                     <h4 className='pb-5'>Social Media  </h4>
                     <p className='number'>
                        <span>
@@ -91,7 +91,7 @@ const Footer = () => {
                        </span>
                     </p>
                 </div>
-                <div>
+                <div className='mb-10'>
                     <h4 className='pb-5'>HELP </h4>
                     <p className='number'>
                        <span>

@@ -12,8 +12,8 @@ const Mission = () => {
           social, cultural and <br /> environmental reality of our country.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2  place-items-end">
-        <div className="missionBox relative">
+      <div className="vission">
+        <div className="missionBox vissionBox1 relative">
           <h4 className="missionText">Mission</h4>
           <img src={mission} alt="mission" />
           <p className="missionPara">
@@ -21,7 +21,7 @@ const Mission = () => {
             satisfaction.
           </p>
         </div>
-        <div className="missionBox relative mr-[330px]">
+        <div className="missionBox vissionBox relative">
           <h4 className="missionText">Mission</h4>
           <img src={mission} alt="mission" />
           <p className="missionPara">
