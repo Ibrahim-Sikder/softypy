@@ -51,6 +51,23 @@ color: #092E3D;
 
 }
 
+@media only screen and (max-width:1024px){
+    .topBar{ 
+        width:100%;
+        text-align: center !important;
+    }
+    .topBarIcon{ 
+        left:310px;
+    
+    }
+    .contact{
+    left:610px;
+       
+       }
+       .phone{
+        left:330px;
+       }
+}
 @media only screen and (max-width:992px){
     .topBar{ 
         width:100%;

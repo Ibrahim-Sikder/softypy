@@ -61,7 +61,7 @@ const Banner = () => {
         <span>One way</span>
         <span>One way</span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid inputBox2 grid-cols-1 md:grid-cols-2">
         <div className="airPort">
           <h6>Flying From</h6>
           <p>City or Airport </p>
@@ -87,7 +87,7 @@ const Banner = () => {
 Economy Class</span> <br />
         <span>1 Person </span>
       </div>
-      <button className="flightBtn">Search Flight</button>
+      <button className="flightBtn mb-10">Search Flight</button>
     </div>
   );
 };

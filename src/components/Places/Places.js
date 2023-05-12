@@ -5,9 +5,9 @@ import place2 from '../../Assets/see.png';
 import place3 from '../../Assets/travel.png';
 const Places = () => {
     return (
-        <div className='places pt-64'>
-           <h2>Best Places To Visit In Bangladesh</h2>
-           <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+        <div className='places pt-64 md:pt-48'>
+           <h2 className='mb-16'>Best Places To Visit In Bangladesh</h2>
+           <div className='bestPlaces'>
                 <div>
                     <img src={place} className='w-full' alt="" />
                     <div className="w-full placesPrice">
@@ -19,7 +19,7 @@ const Places = () => {
                     <p>Bangladesh is a South Asian country with a rich cultural heritage <br /> and natural beauty. It is home to the world's largest mangrove <br /> forest, culture, and natural beauty.</p>
                     <div className='mt-[85px] grid grid-cols-1 md:grid-cols-2 gap-8'>
                         <div className='w-full'>
-                            <img src={place2} className='w-full' alt="" />
+                            <img className='w-full' src={place2} alt="price" />
                             <div className="w-full placesPrice">
                                 <span>Cox's Bazar</span>
                                 <span>1500tk</span>

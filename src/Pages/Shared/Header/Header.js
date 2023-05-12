@@ -9,16 +9,20 @@ const Header = () => {
           <TopBar></TopBar>
           <div className="header">
             <div className='headerContent '>
-              <span className='logo'>
-                <img src={logo} alt="" />
-              </span>
-              <h5>About Us</h5>
-              <span className='relative'>
-              <input placeholder='Search right hotel, visa' className='relative' type="text" />
-              <FaSistrix className='searchIcon'></FaSistrix>
-              </span>
-              <button>Log in</button>
+              <div>
+                <div className='logo'>
+                  <img src={logo} alt="" />
+                </div>
+                <h5>About Us</h5>
+                <div className='relative'>
+                <input placeholder='Search right hotel, visa' className='relative' type="text" />
+                <FaSistrix className='searchIcon'></FaSistrix>
+                </div>
+              </div>
+             <div>
+             <button>Log in</button>
               <button className='buttonTow'>Sign Up</button>
+             </div>
             </div>
           </div>  
         </div>

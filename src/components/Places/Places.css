@@ -1,12 +1,22 @@
 .places{
     width:1440px;
     margin: 0 auto;
+    overflow: hidden;
+}
+.places img{
+    max-width:100% !important;
 }
 .places h2{
     font-family: Poppins;
     font-size:36px;
     font-weight: 600;
     line-height: 54px;
+}
+.bestPlaces{
+    display: grid;
+    column-gap:2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:10;
 }
 .placesPrice{
 height: 54px;
@@ -31,4 +41,22 @@ line-height: 24px;
 align-items: center;
 text-align: justify;
 margin-bottom:30px;
+}
+.tourImage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:1024px){
+    .places{
+        width:100% !important;
+        overflow: hidden;
+    }
+    .places img{
+        max-width:100%;
+        
+    }
+    .bestPlaces{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
