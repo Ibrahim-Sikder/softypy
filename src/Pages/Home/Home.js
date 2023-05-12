@@ -4,6 +4,7 @@ import Places from '../../components/Places/Places';
 import Travel from '../../components/Travel/Travel';
 import Trending from '../../components/Trending/Trending';
 import Mission from '../../components/Mission/Mission';
+import Customer from '../../components/Customer/Customer';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Travel></Travel>
             <Trending></Trending>
             <Mission></Mission>
+            <Customer></Customer>
         </div>
     );
 };
