@@ -1,16 +1,7 @@
 .trendingHead{
     width:800px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
-/* .trending{
-    position: absolute;
-    width: 350px;
- 
-    border-radius: 5px;
-
-} */
 .trending{
     height: 500px;
     background: #FFFFFF;
