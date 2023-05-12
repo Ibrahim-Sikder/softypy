@@ -3,7 +3,7 @@ import "./Customer.css";
 import quote from '../../Assets/quote2.png';
 const Customer = () => {
   return (
-    <div className="my-20">
+    <div className="my-20 w-full">
       <div className="customerHead pb-10 ">
         <h2>Customer satisfaction is our top priority</h2>
         <p>
