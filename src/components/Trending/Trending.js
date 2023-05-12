@@ -15,7 +15,7 @@ const Trending = () => {
           social, cultural and <br /> environmental reality of our country.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="trending">
           <img src={trending} className="w-full" alt="" />
           <div className="w-full flex justify-between px-5">
