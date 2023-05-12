@@ -70,6 +70,13 @@ text-align:center;
 justify-content: center;
 }
 
+.searchIcon {
+    position: absolute;
+    right: 530px;
+    top: 98px;
+    font-size: 25px;
+}
+
 @media only screen and (max-width:1024px){
     .header{
         width: 100%;       
@@ -100,6 +107,9 @@ justify-content: center;
  
         .header input{
            display:none;
+            }
+            .searchIcon {
+                display: none;
             }
     
 }
