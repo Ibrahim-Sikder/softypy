@@ -24,7 +24,7 @@ const Mission = () => {
         <div className="missionBox vissionBox relative">
           <h4 className="missionText">Mission</h4>
           <img src={mission} alt="mission" />
-          <p className="missionPara">
+          <p className="missionPara ">
             Providing advanced travel solutions with great care and
             satisfaction.
           </p>

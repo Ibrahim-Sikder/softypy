@@ -9,7 +9,7 @@ import hotel from "../../Assets/Vector4.png";
 import visa from "../../Assets/Vector.png";
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner ">
       <img className="bannerImg" src={banner} alt="" />
       <h2>Welcome to Ghuronti! Find Flights, Hotels & Tour Packages</h2>
       <div className="bannerItem">

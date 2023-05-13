@@ -3,9 +3,7 @@
     margin: 0 auto;
     overflow: hidden;
 }
-.places img{
-    max-width:100% !important;
-}
+
 .places h2{
     font-family: Poppins;
     font-size:36px;
@@ -14,9 +12,11 @@
 }
 .bestPlaces{
     display: grid;
-    column-gap:2rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:10;
+    column-gap:10px;
+}
+.placesPrice img{
+    width:100%;
 }
 .placesPrice{
 height: 54px;
@@ -48,15 +48,24 @@ margin-bottom:30px;
 }
 
 @media only screen and (max-width:1024px){
+    .leftContent p{
+        margin-top:20px;
+    }
     .places{
         width:100% !important;
         overflow: hidden;
     }
     .places img{
-        max-width:100%;
-        
+        width:100%;
     }
     .bestPlaces{
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .leftContent p {
+        padding: 17px;
     }
 }

@@ -72,7 +72,6 @@
 }
 @media only screen and (max-width:1024px){
   .missionBox {
-    width: 100%;
     overflow: hidden;
     height:500px;
   }
@@ -93,9 +92,7 @@
   .vission{
     display: block;
   }
-  .missionBox{
-    margin-bottom: 20px;
-  }
+
   .missionText {
     padding-left: 30px;
     padding-top: 30px;
@@ -103,6 +100,22 @@
   }
   .missionBox p {
     left: 54%;
-    top: 76%;
+    top: 61%;
 }
+.missionBox {
+  overflow: hidden;
+  height: 450px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+}
+
+@media only screen and (max-width:768px){
+  .missionHead {
+    width: 100%;
+    padding: 38px 24px;
+  }
+
 }

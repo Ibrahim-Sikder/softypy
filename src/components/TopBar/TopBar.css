@@ -4,7 +4,7 @@
     left: 0px; 
     top: 0px; 
     background: #E9F6E9; 
-    margin:auto;
+    margin:0 auto;
 }
 .topBarIcon{ 
     position: absolute;
@@ -84,4 +84,16 @@ color: #092E3D;
        .phone{
         left:215px;
        }
+}
+@media only screen and (max-width:500px){
+    .topBarIcon{ 
+        left:60px;
+    
+    }
+    .phone{
+        left:65px;
+       }
+    .contact {
+        left: 254px;
+    }
 }

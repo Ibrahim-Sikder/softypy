@@ -1,3 +1,8 @@
+.Customers{
+  width:1440px;
+  margin:0 auto;
+  padding:30px;
+}
 .customerHead {
   width: 800px;
   margin: 0 auto;
@@ -14,6 +19,8 @@
 }
 .customerHead p {
   font-family: "Poppins";
+  width:600px;
+  margin:0 auto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -28,6 +35,7 @@
   top: 3149px;
   background: #e6f8ff;
   border-radius: 5px;
+  margin-bottom:60px;
 }
 
 .customer p {
@@ -47,6 +55,9 @@
 }
 
 @media only screen and (max-width:1024px){
+  .Customers{
+    width:100%;
+  }
   .customerHead {
     width:100%;
   }
@@ -55,6 +66,24 @@
     padding:10px;
   }
   .customer p{
-    width:100%;
+    width:680px;
   }
+
+ 
+}
+
+@media only screen and (max-width:500px){
+  .customerHead p {
+    width: 350px;
+    margin-bottom:32px;
+}
+.quoteImg {
+  width: 100px;
+ 
+}
+.customer p {
+  width: 337px;
+  font-size: 16px;
+}
+
 }
