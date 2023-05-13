@@ -149,9 +149,93 @@ Menu styling
             top: 93px;
             font-size: 28px;
         }
+        .navItems.active{
+            left:0px !important;
+        }
+        
+        .navItems {
+            display: block;
+        }
+        
+        .navItems {
+            background: #19ABE3;
+            color: #fff;
+            width: 73%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: -1000px;
+            transition: all .7s ease;
+            -webkit-trnsition: all .5s ease;
+            -moz-transition: all .7s ease;
+            -ms-transition: all .7s ease;
+            -o-transition: all .7s ease;
+            -webkit-transition: all .7s ease;
+            z-index: 999;
+        }
+        
+        .navItems ul li {
+            display: block;
+            padding-bottom: 15px;
+            text-align: center;
+        }
+        
+        .navItems ul {
+            margin-top: 136px;
+        }
+        
+        
         .navItems{
             display: block;
         }
+        /*
+            humberger menu styling
+        */
+
+        .navItems.active{
+            left:0px !important;
+        }
+        .bar{
+            display: block;
+            width:25px;
+            height:3px;
+            margin:5px;
+            transition:all .3s ease-in-out;
+            -webkit-transition:all .3s ease-in-out;
+            -moz-transition:all .3s ease-in-out;
+            -ms-transition:all .3s ease-in-out;
+            -o-transition:all .3s ease-in-out;
+            background-color:#4AB449;
+        }
+
+        .humberger{
+            display: block;
+        }
+        .humberger.active .bar:nth-child(2){
+            opacity:0;
+        }
+        .humberger.active .bar:nth-child(1){
+            transform:translateY(8px) rotate(45deg);
+            -webkit-transform:translateY(8px) rotate(45deg);
+            -moz-transform:translateY(8px) rotate(45deg);
+            -ms-transform:translateY(8px) rotate(45deg);
+            -o-transform:translateY(8px) rotate(45deg);
+    }
+        .humberger.active .bar:nth-child(3){
+            transform:translateY(-8px) rotate(-45deg)	;
+            -webkit-transform:translateY(-8px) rotate(-45deg)	;
+            -moz-transform:translateY(-8px) rotate(-45deg)	;
+            -ms-transform:translateY(-8px) rotate(-45deg)	;
+            -o-transform:translateY(-8px) rotate(-45deg)	;
+    }
+    .humberger {
+        display: block;
+        position: absolute;
+        right: 33px;
+        top: 93px;
+        font-size: 42px;
+        color:black;
+    }
 }
 
 
